@@ -1,5 +1,7 @@
 ---
 title: signatures.sdf3
+hide:
+  - toc
 ---
 
 # `signatures.sdf3`

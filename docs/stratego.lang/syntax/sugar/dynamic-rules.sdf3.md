@@ -1,5 +1,7 @@
 ---
 title: dynamic-rules.sdf3
+hide:
+  - toc
 ---
 
 # `dynamic-rules.sdf3`

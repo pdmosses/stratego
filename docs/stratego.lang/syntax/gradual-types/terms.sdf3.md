@@ -1,5 +1,7 @@
 ---
 title: terms.sdf3
+hide:
+  - toc
 ---
 
 # `terms.sdf3`

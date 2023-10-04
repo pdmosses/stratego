@@ -1,10 +1,12 @@
 ---
 title: deduplicated-namespaced.sdf3
+hide:
+  - toc
 ---
 
 # `deduplicated-namespaced.sdf3`
 
-:simple-github: [pdmosses/stratego/stratego.lang/src-gen/syntax/StrategoLang/deduplicated-namespaced.sdf3]
+
 
 [pdmosses/stratego/stratego.lang/src-gen/syntax/StrategoLang/deduplicated-namespaced.sdf3]: https://github.com/pdmosses/stratego/blob/master/stratego.lang/src-gen/syntax/StrategoLang/deduplicated-namespaced.sdf3 "The source file on GitHub"
 

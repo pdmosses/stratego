@@ -1,5 +1,7 @@
 ---
 title: layout.sdf3
+hide:
+  - toc
 ---
 
 # `layout.sdf3`

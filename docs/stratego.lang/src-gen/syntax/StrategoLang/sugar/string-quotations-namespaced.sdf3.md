@@ -1,10 +1,12 @@
 ---
 title: string-quotations-namespaced.sdf3
+hide:
+  - toc
 ---
 
 # `string-quotations-namespaced.sdf3`
 
-:simple-github: [pdmosses/stratego/stratego.lang/src-gen/syntax/StrategoLang/sugar/string-quotations-namespaced.sdf3]
+
 
 [pdmosses/stratego/stratego.lang/src-gen/syntax/StrategoLang/sugar/string-quotations-namespaced.sdf3]: https://github.com/pdmosses/stratego/blob/master/stratego.lang/src-gen/syntax/StrategoLang/sugar/string-quotations-namespaced.sdf3 "The source file on GitHub"
 

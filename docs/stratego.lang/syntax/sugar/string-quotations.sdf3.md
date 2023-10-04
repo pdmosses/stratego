@@ -1,5 +1,7 @@
 ---
 title: string-quotations.sdf3
+hide:
+  - toc
 ---
 
 # `string-quotations.sdf3`

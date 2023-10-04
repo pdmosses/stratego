@@ -1,5 +1,7 @@
 ---
 title: overlays.sdf3
+hide:
+  - toc
 ---
 
 # `overlays.sdf3`

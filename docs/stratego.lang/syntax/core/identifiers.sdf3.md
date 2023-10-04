@@ -1,5 +1,7 @@
 ---
 title: identifiers.sdf3
+hide:
+  - toc
 ---
 
 # `identifiers.sdf3`

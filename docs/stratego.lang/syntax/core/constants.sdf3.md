@@ -1,5 +1,7 @@
 ---
 title: constants.sdf3
+hide:
+  - toc
 ---
 
 # `constants.sdf3`

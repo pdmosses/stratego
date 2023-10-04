@@ -1,5 +1,7 @@
 ---
 title: deduplicated.sdf3
+hide:
+  - toc
 ---
 
 # `deduplicated.sdf3`

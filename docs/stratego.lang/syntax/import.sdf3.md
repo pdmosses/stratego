@@ -1,5 +1,7 @@
 ---
 title: import.sdf3
+hide:
+  - toc
 ---
 
 # `import.sdf3`

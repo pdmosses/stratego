@@ -1,10 +1,12 @@
 ---
 title: signatures-namespaced.sdf3
+hide:
+  - toc
 ---
 
 # `signatures-namespaced.sdf3`
 
-:simple-github: [pdmosses/stratego/stratego.lang/src-gen/syntax/StrategoLang/gradual-types/signatures-namespaced.sdf3]
+
 
 [pdmosses/stratego/stratego.lang/src-gen/syntax/StrategoLang/gradual-types/signatures-namespaced.sdf3]: https://github.com/pdmosses/stratego/blob/master/stratego.lang/src-gen/syntax/StrategoLang/gradual-types/signatures-namespaced.sdf3 "The source file on GitHub"
 

@@ -1,5 +1,7 @@
 ---
 title: strategies.sdf3
+hide:
+  - toc
 ---
 
 # `strategies.sdf3`

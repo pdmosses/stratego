@@ -1,5 +1,7 @@
 ---
 title: rules.sdf3
+hide:
+  - toc
 ---
 
 # `rules.sdf3`

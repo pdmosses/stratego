@@ -1,5 +1,7 @@
 ---
 title: internal.sdf3
+hide:
+  - toc
 ---
 
 # `internal.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: StrategoLang.sdf3
+hide:
+  - toc
 ---
 
 # `StrategoLang.sdf3`

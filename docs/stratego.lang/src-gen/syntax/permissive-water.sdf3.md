@@ -1,10 +1,12 @@
 ---
 title: permissive-water.sdf3
+hide:
+  - toc
 ---
 
 # `permissive-water.sdf3`
 
-:simple-github: [pdmosses/stratego/stratego.lang/src-gen/syntax/permissive-water.sdf3]
+
 
 [pdmosses/stratego/stratego.lang/src-gen/syntax/permissive-water.sdf3]: https://github.com/pdmosses/stratego/blob/master/stratego.lang/src-gen/syntax/permissive-water.sdf3 "The source file on GitHub"
 

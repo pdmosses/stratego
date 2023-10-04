@@ -1,5 +1,7 @@
 ---
 title: main.sdf3
+hide:
+  - toc
 ---
 
 # `main.sdf3`
