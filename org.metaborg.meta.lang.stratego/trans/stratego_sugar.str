@@ -10,6 +10,8 @@ imports
   analysis
   desugar
   outline
+  
+  generation/docs/-
 
 rules
 
