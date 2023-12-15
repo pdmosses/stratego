@@ -22,16 +22,25 @@ hide:
 10
 11
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../strategies.sdf3#sugar/signatures_147_163" id="sugar/signatures_7_23" title="Referenced at ../strategies.sdf3 line 10">sugar/signatures</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="sugar/signatures_1_8" title="Multi-file references" data-urls="../main.sdf3/#sugar/signatures_8_3 line 8; ../strategies.sdf3/#sugar/signatures_10_3 line 10">sugar/signatures</button>
 
 <span class="keyword">imports</span>
-  <a href="../../core/signatures.sdf3#core/signatures_7_22" id="core/signatures_35_50" title="Defined at ../../core/signatures.sdf3 line 1">core/signatures</a>
-  <a href="../constants.sdf3#sugar/constants_7_22" id="sugar/constants_53_68" title="Defined at ../constants.sdf3 line 1">sugar/constants</a>
-  <a href="../../core/identifiers.sdf3#core/identifiers_7_23" id="core/identifiers_71_87" title="Defined at ../../core/identifiers.sdf3 line 1">core/identifiers</a>
+  <a href="../../core/signatures.sdf3/#core/signatures_1_8" id="core/signatures_4_3" title="Defined at ../../core/signatures.sdf3 line 1">core/signatures</a>
+  <a href="../constants.sdf3/#sugar/constants_1_8" id="sugar/constants_5_3" title="Defined at ../constants.sdf3 line 1">sugar/constants</a>
+  <a href="../../core/identifiers.sdf3/#core/identifiers_1_8" id="core/identifiers_6_3" title="Defined at ../../core/identifiers.sdf3 line 1">core/identifiers</a>
 
 <span class="keyword">context-free syntax</span>
-  <a href="#Sort_364_368" id="Sort_111_115" title="Referenced at line 11">Sort</a>.<span class="cons_Constructor"><span id="SortList_116_124" title="Not referenced locally, nor via imports">SortList</span></span>   = &lt;<span class="cons_String">[</span>&lt;{<a href="#Sort_111_115" id="Sort_133_137" title="Defined at line 9, 10, 11">Sort</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">]</span>&gt; {<span class="keyword">deprecated</span>("This syntax never had real meaning and will be dropped")}
-  <a href="#Sort_364_368" id="Sort_222_226" title="Referenced at line 11">Sort</a>.<span class="cons_Constructor"><span id="SortListTl_227_237" title="Not referenced locally, nor via imports">SortListTl</span></span> = &lt;<span class="cons_String">[</span>&lt;{<a href="#Sort_111_115" id="Sort_244_248" title="Defined at line 9, 10, 11">Sort</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">|</span> &lt;<a href="#Sort_111_115" id="Sort_260_264" title="Defined at line 9, 10, 11">Sort</a>&gt; <span class="cons_String">]</span>&gt; {<span class="keyword">deprecated</span>("This syntax never had real meaning and will be dropped")}
-  <a href="#Sort_364_368" id="Sort_342_346" title="Referenced at line 11">Sort</a>.<span class="cons_Constructor"><span id="SortTuple_347_356" title="Not referenced locally, nor via imports">SortTuple</span></span>  = &lt;<span class="cons_String">(</span>&lt;{<a href="#Sort_111_115" id="Sort_364_368" title="Defined at line 9, 10, 11">Sort</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">)</span>&gt; {<span class="keyword">deprecated</span>("This syntax is being replaced")}
+  <a href="#Sort_9_25" id="Sort_9_3" title="Referenced at line 9, 10, 11">Sort</a>.<span class="cons_Constructor"><span id="SortList_9_8" title="Not referenced">SortList</span></span>   = &lt;<span class="cons_String">[</span>&lt;{<a href="#Sort_9_3" id="Sort_9_25" title="Defined at line 9, 10, 11">Sort</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">]</span>&gt; {<span class="keyword">deprecated</span>("This syntax never had real meaning and will be dropped")}
+  <a href="#Sort_9_25" id="Sort_10_3" title="Referenced at line 9, 10, 11">Sort</a>.<span class="cons_Constructor"><span id="SortListTl_10_8" title="Not referenced">SortListTl</span></span> = &lt;<span class="cons_String">[</span>&lt;{<a href="#Sort_9_3" id="Sort_10_25" title="Defined at line 9, 10, 11">Sort</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">|</span> &lt;<a href="#Sort_9_3" id="Sort_10_41" title="Defined at line 9, 10, 11">Sort</a>&gt; <span class="cons_String">]</span>&gt; {<span class="keyword">deprecated</span>("This syntax never had real meaning and will be dropped")}
+  <a href="#Sort_9_25" id="Sort_11_3" title="Referenced at line 9, 10, 11">Sort</a>.<span class="cons_Constructor"><span id="SortTuple_11_8" title="Not referenced">SortTuple</span></span>  = &lt;<span class="cons_String">(</span>&lt;{<a href="#Sort_9_3" id="Sort_11_25" title="Defined at line 9, 10, 11">Sort</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">)</span>&gt; {<span class="keyword">deprecated</span>("This syntax is being replaced")}
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

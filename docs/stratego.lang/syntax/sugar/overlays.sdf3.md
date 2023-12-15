@@ -22,16 +22,25 @@ hide:
 10
 11
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../modules.sdf3#sugar/overlays_64_78" id="sugar/overlays_7_21" title="Referenced at ../modules.sdf3 line 5">sugar/overlays</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="sugar/overlays_1_8" title="Multi-file references" data-urls="../main.sdf3/#sugar/overlays_14_3 line 14; ../modules.sdf3/#sugar/overlays_5_3 line 5; ../../gradual-types/overlays.sdf3/#sugar/overlays_6_3 line 6">sugar/overlays</button>
 <span class="keyword">imports</span>
-  <a href="../../core/identifiers.sdf3#core/identifiers_7_23" id="core/identifiers_32_48" title="Defined at ../../core/identifiers.sdf3 line 1">core/identifiers</a>
-  <a href="../../core/terms.sdf3#core/terms_7_17" id="core/terms_51_61" title="Defined at ../../core/terms.sdf3 line 1">core/terms</a>
+  <a href="../../core/identifiers.sdf3/#core/identifiers_1_8" id="core/identifiers_3_3" title="Defined at ../../core/identifiers.sdf3 line 1">core/identifiers</a>
+  <a href="../../core/terms.sdf3/#core/terms_1_8" id="core/terms_4_3" title="Defined at ../../core/terms.sdf3 line 1">core/terms</a>
 
-<span class="keyword">context-free sorts</span> <a href="../modules.sdf3#Overlay_188_195" id="Overlay_82_89" title="Referenced at ../modules.sdf3 line 15">Overlay</a>
+<span class="keyword">context-free sorts</span> <a href="../modules.sdf3/#Overlay_15_5" id="Overlay_6_20" title="Referenced at ../modules.sdf3 line 15">Overlay</a>
 <span class="keyword">context-free syntax</span>
-  <a href="../modules.sdf3#Overlay_188_195" id="Overlay_112_119" title="Referenced at ../modules.sdf3 line 15">Overlay</a>.<span class="cons_Constructor"><span id="OverlayNoArgs_120_133" title="Not referenced locally, nor via imports">OverlayNoArgs</span></span> = &lt;&lt;<a href="../../core/identifiers.sdf3#Id_420_422" id="Id_138_140" title="Defined at ../../core/identifiers.sdf3 line 16, 21, 23, 43, 44, 45">Id</a>&gt; <span class="cons_String">=</span> &lt;<a href="../../core/terms.sdf3#Term_180_184" id="Term_145_149" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>&gt;&gt;
+  <a href="../modules.sdf3/#Overlay_15_5" id="Overlay_8_3" title="Referenced at ../modules.sdf3 line 15">Overlay</a>.<span class="cons_Constructor"><span id="OverlayNoArgs_8_11" title="Not referenced">OverlayNoArgs</span></span> = &lt;&lt;<a href="../../core/identifiers.sdf3/#Id_16_15" id="Id_8_29" title="Defined at ../../core/identifiers.sdf3 line 16, 21, 23, 43, 44, 45">Id</a>&gt; <span class="cons_String">=</span> &lt;<a href="../../core/terms.sdf3/#Term_13_20" id="Term_8_36" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>&gt;&gt;
 
-  <a href="../modules.sdf3#Overlay_188_195" id="Overlay_155_162" title="Referenced at ../modules.sdf3 line 15">Overlay</a>.<span class="cons_Constructor"><span id="Overlay_163_170" title="Not referenced locally, nor via imports">Overlay</span></span> =
-    &lt;&lt;<a href="../../core/identifiers.sdf3#Id_420_422" id="Id_179_181" title="Defined at ../../core/identifiers.sdf3 line 16, 21, 23, 43, 44, 45">Id</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../../core/identifiers.sdf3#Id_420_422" id="Id_185_187" title="Defined at ../../core/identifiers.sdf3 line 16, 21, 23, 43, 44, 45">Id</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">)</span> <span class="cons_String">=</span> &lt;<a href="../../core/terms.sdf3#Term_180_184" id="Term_200_204" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>&gt;&gt;
+  <a href="../modules.sdf3/#Overlay_15_5" id="Overlay_10_3" title="Referenced at ../modules.sdf3 line 15">Overlay</a>.<span class="cons_Constructor"><span id="Overlay_10_11" title="Not referenced">Overlay</span></span> =
+    &lt;&lt;<a href="../../core/identifiers.sdf3/#Id_16_15" id="Id_11_7" title="Defined at ../../core/identifiers.sdf3 line 16, 21, 23, 43, 44, 45">Id</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../../core/identifiers.sdf3/#Id_16_15" id="Id_11_13" title="Defined at ../../core/identifiers.sdf3 line 16, 21, 23, 43, 44, 45">Id</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">)</span> <span class="cons_String">=</span> &lt;<a href="../../core/terms.sdf3/#Term_13_20" id="Term_11_28" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>&gt;&gt;
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

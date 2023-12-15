@@ -61,57 +61,66 @@ hide:
 49
 50
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../strategies.sdf3#sugar/rules_115_126" id="sugar/rules_7_18" title="Referenced at ../strategies.sdf3 line 8">sugar/rules</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="sugar/rules_1_8" title="Multi-file references" data-urls="../dynamic-rules.sdf3/#sugar/rules_9_3 line 9; ../main.sdf3/#sugar/rules_12_3 line 12; ../modules.sdf3/#sugar/rules_6_3 line 6; ../strategies.sdf3/#sugar/rules_8_3 line 8; ../../deduplicated.sdf3/#sugar/rules_9_3 line 9">sugar/rules</button>
 
   <span class="keyword">imports</span>
-    <a href="../../core/identifiers.sdf3#core/identifiers_7_23" id="core/identifiers_34_50" title="Defined at ../../core/identifiers.sdf3 line 1">core/identifiers</a>
-    <a href="../../core/signatures.sdf3#core/signatures_7_22" id="core/signatures_55_70" title="Defined at ../../core/signatures.sdf3 line 1">core/signatures</a>
-    <a href="../../core/terms.sdf3#core/terms_7_17" id="core/terms_75_85" title="Defined at ../../core/terms.sdf3 line 1">core/terms</a>
-    <a href="../../core/strategies.sdf3#core/strategies_7_22" id="core/strategies_90_105" title="Defined at ../../core/strategies.sdf3 line 1">core/strategies</a>
-    <a href="../terms.sdf3#sugar/terms_7_18" id="sugar/terms_110_121" title="Defined at ../terms.sdf3 line 1">sugar/terms</a>
-    <a href="../strategies.sdf3#sugar/strategies_7_23" id="sugar/strategies_126_142" title="Defined at ../strategies.sdf3 line 1">sugar/strategies</a>
+    <a href="../../core/identifiers.sdf3/#core/identifiers_1_8" id="core/identifiers_4_5" title="Defined at ../../core/identifiers.sdf3 line 1">core/identifiers</a>
+    <a href="../../core/signatures.sdf3/#core/signatures_1_8" id="core/signatures_5_5" title="Defined at ../../core/signatures.sdf3 line 1">core/signatures</a>
+    <a href="../../core/terms.sdf3/#core/terms_1_8" id="core/terms_6_5" title="Defined at ../../core/terms.sdf3 line 1">core/terms</a>
+    <a href="../../core/strategies.sdf3/#core/strategies_1_8" id="core/strategies_7_5" title="Defined at ../../core/strategies.sdf3 line 1">core/strategies</a>
+    <a href="../terms.sdf3/#sugar/terms_1_8" id="sugar/terms_8_5" title="Defined at ../terms.sdf3 line 1">sugar/terms</a>
+    <a href="../strategies.sdf3/#sugar/strategies_1_8" id="sugar/strategies_9_5" title="Defined at ../strategies.sdf3 line 1">sugar/strategies</a>
 
 <span class="keyword">template options</span>
   <span class="keyword">tokenize</span>: ")(|"
 
-<span class="keyword">context-free sorts</span> <a href="#RuleDef_315_322" id="RuleDef_199_206" title="Referenced at line 21; ../modules.sdf3 line 17; ../../deduplicated.sdf3 line 41">RuleDef</a> <a href="#RDefT_629_634" id="RDefT_207_212" title="Referenced at line 37">RDefT</a> <a href="#RDefP_543_548" id="RDefP_213_218" title="Referenced at line 33">RDefP</a>
+<span class="keyword">context-free sorts</span> <button class="modal-open" id="RuleDef_14_20" title="Multi-file references" data-urls="#RuleDef_21_15 line 21; ../modules.sdf3/#RuleDef_17_11 line 17; ../../deduplicated.sdf3/#RuleDef_41_15 line 41">RuleDef</button> <a href="#RDefT_27_13" id="RDefT_14_28" title="Referenced at line 27, 37">RDefT</a> <a href="#RDefP_33_13" id="RDefP_14_34" title="Referenced at line 33">RDefP</a>
 <span class="keyword">context-free syntax</span>
-  <a href="#RuleDef_315_322" id="RuleDef_241_248" title="Referenced at line 21; ../modules.sdf3 line 17; ../../deduplicated.sdf3 line 41">RuleDef</a>.<span class="cons_Constructor"><span id="RDefNoArgs_249_259" title="Not referenced locally, nor via imports">RDefNoArgs</span></span> =
-&lt;&lt;<a href="../../core/strategies.sdf3#SId_686_689" id="SId_264_267" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">:</span>
-  &lt;<a href="#Rule_664_668" id="Rule_273_277" title="Defined at line 39, 42">Rule</a>&gt;&gt;
+  <button class="modal-open" id="RuleDef_16_3" title="Multi-file references" data-urls="#RuleDef_21_15 line 21; ../modules.sdf3/#RuleDef_17_11 line 17; ../../deduplicated.sdf3/#RuleDef_41_15 line 41">RuleDef</button>.<span class="cons_Constructor"><span id="RDefNoArgs_16_11" title="Not referenced">RDefNoArgs</span></span> =
+&lt;&lt;<a href="../../core/strategies.sdf3/#SId_34_15" id="SId_17_3" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">:</span>
+  &lt;<a href="#Rule_39_20" id="Rule_18_4" title="Defined at line 39, 42">Rule</a>&gt;&gt;
 
-  <span id="Def_283_286" title="Not referenced locally, nor via imports">Def</span>.<span class="cons_Constructor"><span id="AnnoRuleDef_287_298" title="Not referenced locally, nor via imports">AnnoRuleDef</span></span> =
-    &lt;&lt;<a href="../../core/strategies.sdf3#Anno_825_829" id="Anno_307_311" title="Defined at ../../core/strategies.sdf3 line 42, 44, 45, 46">Anno</a>+&gt; &lt;<a href="#RuleDef_199_206" id="RuleDef_315_322" title="Defined at line 14, 16, 23, 27, 33">RuleDef</a>&gt;&gt;
+  <span id="Def_20_3" title="Not referenced">Def</span>.<span class="cons_Constructor"><span id="AnnoRuleDef_20_7" title="Not referenced">AnnoRuleDef</span></span> =
+    &lt;&lt;<a href="../../core/strategies.sdf3/#Anno_42_20" id="Anno_21_7" title="Defined at ../../core/strategies.sdf3 line 42, 44, 45, 46">Anno</a>+&gt; &lt;<a href="#RuleDef_14_20" id="RuleDef_21_15" title="Defined at line 14, 16, 23, 27, 33">RuleDef</a>&gt;&gt;
 
-  <a href="#RuleDef_315_322" id="RuleDef_328_335" title="Referenced at line 21; ../modules.sdf3 line 17; ../../deduplicated.sdf3 line 41">RuleDef</a>.<span class="cons_Constructor"><span id="RDef_336_340" title="Not referenced locally, nor via imports">RDef</span></span> =
-&lt;&lt;<a href="../../core/strategies.sdf3#SId_686_689" id="SId_345_348" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../../core/strategies.sdf3#Typedid_953_960" id="Typedid_352_359" title="Defined at ../../core/strategies.sdf3 line 48, 50">Typedid</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">):</span>
-  &lt;<a href="#Rule_664_668" id="Rule_373_377" title="Defined at line 39, 42">Rule</a>&gt;&gt;
+  <button class="modal-open" id="RuleDef_23_3" title="Multi-file references" data-urls="#RuleDef_21_15 line 21; ../modules.sdf3/#RuleDef_17_11 line 17; ../../deduplicated.sdf3/#RuleDef_41_15 line 41">RuleDef</button>.<span class="cons_Constructor"><span id="RDef_23_11" title="Not referenced">RDef</span></span> =
+&lt;&lt;<a href="../../core/strategies.sdf3/#SId_34_15" id="SId_24_3" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../strategies.sdf3/#Typedid_33_3" id="Typedid_24_10" title="Defined at ../strategies.sdf3 line 33">Typedid</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">):</span>
+  &lt;<a href="#Rule_39_20" id="Rule_25_4" title="Defined at line 39, 42">Rule</a>&gt;&gt;
 
-  <a href="#RuleDef_315_322" id="RuleDef_383_390" title="Referenced at line 21; ../modules.sdf3 line 17; ../../deduplicated.sdf3 line 41">RuleDef</a> = <a href="#RDefT_207_212" id="RDefT_393_398" title="Defined at line 14, 28">RDefT</a>
-  <a href="#RDefT_629_634" id="RDefT_401_406" title="Referenced at line 37">RDefT</a>.<span class="cons_Constructor"><span id="RDefT_407_412" title="Not referenced locally, nor via imports">RDefT</span></span> =
-&lt;&lt;<a href="../../core/strategies.sdf3#SId_686_689" id="SId_417_420" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../../core/strategies.sdf3#Typedid_953_960" id="Typedid_424_431" title="Defined at ../../core/strategies.sdf3 line 48, 50">Typedid</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">|</span> &lt;{<a href="../../core/strategies.sdf3#Typedid_953_960" id="Typedid_444_451" title="Defined at ../../core/strategies.sdf3 line 48, 50">Typedid</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">):</span>
-  &lt;<a href="#Rule_664_668" id="Rule_465_469" title="Defined at line 39, 42">Rule</a>&gt;&gt;
+  <button class="modal-open" id="RuleDef_27_3" title="Multi-file references" data-urls="#RuleDef_21_15 line 21; ../modules.sdf3/#RuleDef_17_11 line 17; ../../deduplicated.sdf3/#RuleDef_41_15 line 41">RuleDef</button> = <a href="#RDefT_14_28" id="RDefT_27_13" title="Defined at line 14, 28">RDefT</a>
+  <a href="#RDefT_27_13" id="RDefT_28_3" title="Referenced at line 27, 37">RDefT</a>.<span class="cons_Constructor"><span id="RDefT_28_9" title="Not referenced">RDefT</span></span> =
+&lt;&lt;<a href="../../core/strategies.sdf3/#SId_34_15" id="SId_29_3" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../strategies.sdf3/#Typedid_33_3" id="Typedid_29_10" title="Defined at ../strategies.sdf3 line 33">Typedid</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">|</span> &lt;{<a href="../strategies.sdf3/#Typedid_33_3" id="Typedid_29_30" title="Defined at ../strategies.sdf3 line 33">Typedid</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">):</span>
+  &lt;<a href="#Rule_39_20" id="Rule_30_4" title="Defined at line 39, 42">Rule</a>&gt;&gt;
 
   <span class="layout">// Rule definition with pattern matched term parameters</span>
-  <a href="#RuleDef_315_322" id="RuleDef_533_540" title="Referenced at line 21; ../modules.sdf3 line 17; ../../deduplicated.sdf3 line 41">RuleDef</a> = <a href="#RDefP_213_218" id="RDefP_543_548" title="Defined at line 14, 34, 37">RDefP</a>
-  <a href="#RDefP_543_548" id="RDefP_551_556" title="Referenced at line 33">RDefP</a>.<span class="cons_Constructor"><span id="RDefP_557_562" title="Not referenced locally, nor via imports">RDefP</span></span> =
-&lt;&lt;<a href="../../core/strategies.sdf3#SId_686_689" id="SId_567_570" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../../core/strategies.sdf3#Typedid_953_960" id="Typedid_574_581" title="Defined at ../../core/strategies.sdf3 line 48, 50">Typedid</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">|</span> &lt;{<a href="../../core/terms.sdf3#Term_180_184" id="Term_594_598" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a> <span class="cons_Lit">", "</span>}+&gt;<span class="cons_String">):</span>
-  &lt;<a href="#Rule_664_668" id="Rule_612_616" title="Defined at line 39, 42">Rule</a>&gt;&gt;
-  <a href="#RDefP_543_548" id="RDefP_621_626" title="Referenced at line 33">RDefP</a> = <a href="#RDefT_207_212" id="RDefT_629_634" title="Defined at line 14, 28">RDefT</a> {<span class="keyword">reject</span>}
+  <button class="modal-open" id="RuleDef_33_3" title="Multi-file references" data-urls="#RuleDef_21_15 line 21; ../modules.sdf3/#RuleDef_17_11 line 17; ../../deduplicated.sdf3/#RuleDef_41_15 line 41">RuleDef</button> = <a href="#RDefP_14_34" id="RDefP_33_13" title="Defined at line 14, 34, 37">RDefP</a>
+  <a href="#RDefP_33_13" id="RDefP_34_3" title="Referenced at line 33">RDefP</a>.<span class="cons_Constructor"><span id="RDefP_34_9" title="Not referenced">RDefP</span></span> =
+&lt;&lt;<a href="../../core/strategies.sdf3/#SId_34_15" id="SId_35_3" title="Defined at ../../core/strategies.sdf3 line 34, 37">SId</a>&gt;<span class="cons_String">(</span>&lt;{<a href="../strategies.sdf3/#Typedid_33_3" id="Typedid_35_10" title="Defined at ../strategies.sdf3 line 33">Typedid</a> <span class="cons_Lit">", "</span>}*&gt; <span class="cons_String">|</span> &lt;{<a href="../../core/terms.sdf3/#Term_13_20" id="Term_35_30" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a> <span class="cons_Lit">", "</span>}+&gt;<span class="cons_String">):</span>
+  &lt;<a href="#Rule_39_20" id="Rule_36_4" title="Defined at line 39, 42">Rule</a>&gt;&gt;
+  <a href="#RDefP_33_13" id="RDefP_37_3" title="Referenced at line 33">RDefP</a> = <a href="#RDefT_14_28" id="RDefT_37_11" title="Defined at line 14, 28">RDefT</a> {<span class="keyword">reject</span>}
 
-<span class="keyword">context-free sorts</span> <a href="#Rule_612_616" id="Rule_664_668" title="Referenced at line 36; ../dynamic-rules.sdf3 line 45; ../strategies.sdf3 line 78">Rule</a> <a href="#RuleCond_735_743" id="RuleCond_669_677" title="Referenced at line 43">RuleCond</a>
+<span class="keyword">context-free sorts</span> <button class="modal-open" id="Rule_39_20" title="Multi-file references" data-urls="#Rule_18_4 line 18, 25, 30, 36; ../dynamic-rules.sdf3/#Rule_35_21 line 35, 37, 45; ../strategies.sdf3/#Rule_77_29 line 77, 78">Rule</button> <a href="#RuleCond_43_5" id="RuleCond_39_25" title="Referenced at line 43">RuleCond</a>
 <span class="keyword">context-free syntax</span>
 
-  <a href="#Rule_612_616" id="Rule_701_705" title="Referenced at line 36; ../dynamic-rules.sdf3 line 45; ../strategies.sdf3 line 78">Rule</a>.<span class="cons_Constructor"><span id="Rule_706_710" title="Not referenced locally, nor via imports">Rule</span></span> = [[<a href="../../core/terms.sdf3#Term_180_184" id="Term_715_719" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>] <span class="cons_String">-&gt;</span> [<a href="../../core/terms.sdf3#Term_180_184" id="Term_725_729" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>]
-  [{<a href="#RuleCond_669_677" id="RuleCond_735_743" title="Defined at line 39, 45, 48">RuleCond</a> <span class="cons_Lit">"\n"</span>}*]]
+  <button class="modal-open" id="Rule_42_3" title="Multi-file references" data-urls="#Rule_18_4 line 18, 25, 30, 36; ../dynamic-rules.sdf3/#Rule_35_21 line 35, 37, 45; ../strategies.sdf3/#Rule_77_29 line 77, 78">Rule</button>.<span class="cons_Constructor"><span id="Rule_42_8" title="Not referenced">Rule</span></span> = [[<a href="../../core/terms.sdf3/#Term_13_20" id="Term_42_17" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>] <span class="cons_String">-&gt;</span> [<a href="../../core/terms.sdf3/#Term_13_20" id="Term_42_27" title="Defined at ../../core/terms.sdf3 line 13, 16, 17, 18, 19">Term</a>]
+  [{<a href="#RuleCond_39_25" id="RuleCond_43_5" title="Defined at line 39, 45, 48">RuleCond</a> <span class="cons_Lit">"\n"</span>}*]]
 
-  <a href="#RuleCond_735_743" id="RuleCond_756_764" title="Referenced at line 43">RuleCond</a>.<span class="cons_Constructor"><span id="WhereClause_765_776" title="Not referenced locally, nor via imports">WhereClause</span></span> =
+  <a href="#RuleCond_43_5" id="RuleCond_45_3" title="Referenced at line 43">RuleCond</a>.<span class="cons_Constructor"><span id="WhereClause_45_12" title="Not referenced">WhereClause</span></span> =
 &lt;<span class="cons_String">where</span>
-  &lt;<a href="../../core/strategies.sdf3#Strategy_1040_1048" id="Strategy_789_797" title="Defined at ../../core/strategies.sdf3 line 53, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 71, 78, 81, 84">Strategy</a>&gt;&gt;
-  <a href="#RuleCond_735_743" id="RuleCond_802_810" title="Referenced at line 43">RuleCond</a>.<span class="cons_Constructor"><span id="WithClause_811_821" title="Not referenced locally, nor via imports">WithClause</span></span> =
+  &lt;<a href="../strategies.sdf3/#Strategy_38_3" id="Strategy_47_4" title="Defined at ../strategies.sdf3 line 38, 41, 42, 43, 45, 46, 47, 48, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 76, 77, 78, 79, 80, 81, 82, 83, 84, 88, 93">Strategy</a>&gt;&gt;
+  <a href="#RuleCond_43_5" id="RuleCond_48_3" title="Referenced at line 43">RuleCond</a>.<span class="cons_Constructor"><span id="WithClause_48_12" title="Not referenced">WithClause</span></span> =
 &lt;<span class="cons_String">with</span>
-  &lt;<a href="../../core/strategies.sdf3#Strategy_1040_1048" id="Strategy_833_841" title="Defined at ../../core/strategies.sdf3 line 53, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 71, 78, 81, 84">Strategy</a>&gt;&gt;
+  &lt;<a href="../strategies.sdf3/#Strategy_38_3" id="Strategy_50_4" title="Defined at ../strategies.sdf3 line 38, 41, 42, 43, 45, 46, 47, 48, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 76, 77, 78, 79, 80, 81, 82, 83, 84, 88, 93">Strategy</a>&gt;&gt;
 
 
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

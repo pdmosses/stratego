@@ -56,51 +56,60 @@ hide:
 44
 45
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../sugar/modules.sdf3#core/modules_31_43" id="core/modules_7_19" title="Referenced at ../../sugar/modules.sdf3 line 3">core/modules</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="core/modules_1_8" title="Multi-file references" data-urls="../main.sdf3/#core/modules_10_3 line 10; ../../StrategoLang.sdf3/#core/modules_5_3 line 5; ../../gradual-types/internal.sdf3/#core/modules_6_3 line 6; ../../sugar/main.sdf3/#core/modules_5_3 line 5; ../../sugar/modules.sdf3/#core/modules_3_3 line 3">core/modules</button>
 
 <span class="keyword">imports</span>
-  <a href="../identifiers.sdf3#core/identifiers_7_23" id="core/identifiers_31_47" title="Defined at ../identifiers.sdf3 line 1">core/identifiers</a>
-  <a href="../layout.sdf3#core/layout_7_18" id="core/layout_50_61" title="Defined at ../layout.sdf3 line 1">core/layout</a>
-  <a href="../signatures.sdf3#core/signatures_7_22" id="core/signatures_64_79" title="Defined at ../signatures.sdf3 line 1">core/signatures</a>
-  <a href="../strategies.sdf3#core/strategies_7_22" id="core/strategies_82_97" title="Defined at ../strategies.sdf3 line 1">core/strategies</a>
+  <a href="../identifiers.sdf3/#core/identifiers_1_8" id="core/identifiers_4_3" title="Defined at ../identifiers.sdf3 line 1">core/identifiers</a>
+  <a href="../layout.sdf3/#core/layout_1_8" id="core/layout_5_3" title="Defined at ../layout.sdf3 line 1">core/layout</a>
+  <a href="../signatures.sdf3/#core/signatures_1_8" id="core/signatures_6_3" title="Defined at ../signatures.sdf3 line 1">core/signatures</a>
+  <a href="../strategies.sdf3/#core/strategies_1_8" id="core/strategies_7_3" title="Defined at ../strategies.sdf3 line 1">core/strategies</a>
 
-<span class="keyword">context-free sorts</span> <a href="../../StrategoLang.sdf3#Module_104_110" id="Module_118_124" title="Referenced at ../../StrategoLang.sdf3 line 7; ../../gradual-types/internal.sdf3 line 15">Module</a>
+<span class="keyword">context-free sorts</span> <button class="modal-open" id="Module_9_20" title="Multi-file references" data-urls="../../StrategoLang.sdf3/#Module_7_28 line 7; ../../gradual-types/internal.sdf3/#Module_15_7 line 15">Module</button>
 <span class="keyword">context-free syntax</span>
 
-  <a href="../../StrategoLang.sdf3#Module_104_110" id="Module_148_154" title="Referenced at ../../StrategoLang.sdf3 line 7; ../../gradual-types/internal.sdf3 line 15">Module</a>.<span class="cons_Constructor"><span id="Module_155_161" title="Not referenced locally, nor via imports">Module</span></span> =
-&lt;<span class="cons_String">module</span> &lt;<a href="../identifiers.sdf3#ModName_39_46" id="ModName_173_180" title="Defined at ../identifiers.sdf3 line 3, 5, 10, 11, 12, 13, 14">ModName</a>&gt;
+  <button class="modal-open" id="Module_12_3" title="Multi-file references" data-urls="../../StrategoLang.sdf3/#Module_7_28 line 7; ../../gradual-types/internal.sdf3/#Module_15_7 line 15">Module</button>.<span class="cons_Constructor"><span id="Module_12_10" title="Not referenced">Module</span></span> =
+&lt;<span class="cons_String">module</span> &lt;<a href="../identifiers.sdf3/#ModName_3_15" id="ModName_13_10" title="Defined at ../identifiers.sdf3 line 3, 5, 10, 11, 12, 13, 14">ModName</a>&gt;
 
-&lt;{<a href="#AnnoDecl_294_302" id="AnnoDecl_185_193" title="Defined at line 22, 38">AnnoDecl</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
+&lt;{<a href="#AnnoDecl_22_25" id="AnnoDecl_15_3" title="Defined at line 22, 38">AnnoDecl</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
 
-  <a href="../../StrategoLang.sdf3#Module_104_110" id="Module_208_214" title="Referenced at ../../StrategoLang.sdf3 line 7; ../../gradual-types/internal.sdf3 line 15">Module</a>.<span class="cons_Constructor"><span id="Specification_215_228" title="Not referenced locally, nor via imports">Specification</span></span> =
+  <button class="modal-open" id="Module_17_3" title="Multi-file references" data-urls="../../StrategoLang.sdf3/#Module_7_28 line 7; ../../gradual-types/internal.sdf3/#Module_15_7 line 15">Module</button>.<span class="cons_Constructor"><span id="Specification_17_10" title="Not referenced">Specification</span></span> =
 &lt;<span class="cons_String">specification</span>
 
-&lt;{<a href="#AnnoDecl_294_302" id="AnnoDecl_249_257" title="Defined at line 22, 38">AnnoDecl</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
+&lt;{<a href="#AnnoDecl_22_25" id="AnnoDecl_20_3" title="Defined at line 22, 38">AnnoDecl</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
 
-<span class="keyword">context-free sorts</span> <a href="#Decl_491_495" id="Decl_289_293" title="Referenced at line 38">Decl</a> <a href="#AnnoDecl_249_257" id="AnnoDecl_294_302" title="Referenced at line 20">AnnoDecl</a>
+<span class="keyword">context-free sorts</span> <a href="#Decl_38_14" id="Decl_22_20" title="Referenced at line 38">Decl</a> <a href="#AnnoDecl_15_3" id="AnnoDecl_22_25" title="Referenced at line 15, 20">AnnoDecl</a>
 <span class="keyword">context-free syntax</span>
-  <a href="#Decl_491_495" id="Decl_325_329" title="Referenced at line 38">Decl</a>.<span class="cons_Constructor"><span id="Imports_330_337" title="Not referenced locally, nor via imports">Imports</span></span> =
+  <a href="#Decl_38_14" id="Decl_24_3" title="Referenced at line 38">Decl</a>.<span class="cons_Constructor"><span id="Imports_24_8" title="Not referenced">Imports</span></span> =
 &lt;<span class="cons_String">imports</span>
 
-&lt;{<a href="#ImportModName_516_529" id="ImportModName_352_365" title="Defined at line 40, 42, 45">ImportModName</a> <span class="cons_Lit">"\n"</span>}*&gt;&gt;
+&lt;{<a href="#ImportModName_40_20" id="ImportModName_27_3" title="Defined at line 40, 42, 45">ImportModName</a> <span class="cons_Lit">"\n"</span>}*&gt;&gt;
 
-  <a href="#Decl_491_495" id="Decl_378_382" title="Referenced at line 38">Decl</a>.<span class="cons_Constructor"><span id="Strategies_383_393" title="Not referenced locally, nor via imports">Strategies</span></span> = 
+  <a href="#Decl_38_14" id="Decl_29_3" title="Referenced at line 38">Decl</a>.<span class="cons_Constructor"><span id="Strategies_29_8" title="Not referenced">Strategies</span></span> = 
 &lt;<span class="cons_String">strategies</span>
 
-&lt;{<a href="../strategies.sdf3#Def_187_190" id="Def_412_415" title="Defined at ../strategies.sdf3 line 13, 15, 25">Def</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
+&lt;{<a href="../strategies.sdf3/#Def_13_20" id="Def_32_3" title="Defined at ../strategies.sdf3 line 13, 15, 25">Def</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
 
-  <a href="#Decl_491_495" id="Decl_430_434" title="Referenced at line 38">Decl</a>.<span class="cons_Constructor"><span id="Signature_435_444" title="Not referenced locally, nor via imports">Signature</span></span> =
+  <a href="#Decl_38_14" id="Decl_34_3" title="Referenced at line 38">Decl</a>.<span class="cons_Constructor"><span id="Signature_34_8" title="Not referenced">Signature</span></span> =
 &lt;<span class="cons_String">signature</span>
-&lt;{<a href="../signatures.sdf3#Sdecl_596_601" id="Sdecl_460_465" title="Defined at ../signatures.sdf3 line 20, 23, 26">Sdecl</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
+&lt;{<a href="../signatures.sdf3/#Sdecl_20_20" id="Sdecl_36_3" title="Defined at ../signatures.sdf3 line 20, 23, 26">Sdecl</a> <span class="cons_Lit">"\n\n"</span>}*&gt;&gt;
 
-  <a href="#AnnoDecl_249_257" id="AnnoDecl_480_488" title="Referenced at line 20">AnnoDecl</a> = <a href="#Decl_289_293" id="Decl_491_495" title="Defined at line 22, 24, 29, 34">Decl</a>
+  <a href="#AnnoDecl_15_3" id="AnnoDecl_38_3" title="Referenced at line 15, 20">AnnoDecl</a> = <a href="#Decl_22_20" id="Decl_38_14" title="Defined at line 22, 24, 29, 34">Decl</a>
 
-<span class="keyword">context-free sorts</span> <a href="#ImportModName_352_365" id="ImportModName_516_529" title="Referenced at line 27">ImportModName</a>
+<span class="keyword">context-free sorts</span> <a href="#ImportModName_27_3" id="ImportModName_40_20" title="Referenced at line 27">ImportModName</a>
 <span class="keyword">context-free syntax</span>
-  <a href="#ImportModName_352_365" id="ImportModName_552_565" title="Referenced at line 27">ImportModName</a>.<span class="cons_Constructor"><span id="Import_566_572" title="Not referenced locally, nor via imports">Import</span></span> = <a href="../identifiers.sdf3#ModName_39_46" id="ModName_575_582" title="Defined at ../identifiers.sdf3 line 3, 5, 10, 11, 12, 13, 14">ModName</a>
+  <a href="#ImportModName_27_3" id="ImportModName_42_3" title="Referenced at line 27">ImportModName</a>.<span class="cons_Constructor"><span id="Import_42_17" title="Not referenced">Import</span></span> = <a href="../identifiers.sdf3/#ModName_3_15" id="ModName_42_26" title="Defined at ../identifiers.sdf3 line 3, 5, 10, 11, 12, 13, 14">ModName</a>
 
 <span class="keyword">syntax</span>
-  <a href="#ImportModName_352_365" id="ImportModName_593_606" title="Referenced at line 27">ImportModName</a><span class="keyword">-CF</span>.<span class="cons_Constructor"><span id="ImportWildcard_610_624" title="Not referenced locally, nor via imports">ImportWildcard</span></span> = <a href="../identifiers.sdf3#ModName_39_46" id="ModName_627_634" title="Defined at ../identifiers.sdf3 line 3, 5, 10, 11, 12, 13, 14">ModName</a><span class="keyword">-CF</span> <span class="cons_Lit">"/"</span> <span class="cons_Lit">"-"</span>
+  <a href="#ImportModName_27_3" id="ImportModName_45_3" title="Referenced at line 27">ImportModName</a><span class="keyword">-CF</span>.<span class="cons_Constructor"><span id="ImportWildcard_45_20" title="Not referenced">ImportWildcard</span></span> = <a href="../identifiers.sdf3/#ModName_3_15" id="ModName_45_37" title="Defined at ../identifiers.sdf3 line 3, 5, 10, 11, 12, 13, 14">ModName</a><span class="keyword">-CF</span> <span class="cons_Lit">"/"</span> <span class="cons_Lit">"-"</span>
 
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

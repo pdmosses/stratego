@@ -19,12 +19,21 @@ hide:
 7
 8
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../import.sdf3#gradual-types/main_50_68" id="gradual-types/main_7_25" title="Referenced at ../../import.sdf3 line 6">gradual-types/main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../import.sdf3/#gradual-types/main_6_3" id="gradual-types/main_1_8" title="Referenced at ../../import.sdf3 line 6">gradual-types/main</a>
 
 <span class="keyword">imports</span>
-  <a href="../modules.sdf3#gradual-types/modules_7_28" id="gradual-types/modules_37_58" title="Defined at ../modules.sdf3 line 1">gradual-types/modules</a>
-  <a href="../signatures.sdf3#gradual-types/signatures_7_31" id="gradual-types/signatures_61_85" title="Defined at ../signatures.sdf3 line 1">gradual-types/signatures</a>
-  <a href="../strategies.sdf3#gradual-types/strategies_7_31" id="gradual-types/strategies_88_112" title="Defined at ../strategies.sdf3 line 1">gradual-types/strategies</a>
-  <a href="../terms.sdf3#gradual-types/terms_7_26" id="gradual-types/terms_115_134" title="Defined at ../terms.sdf3 line 1">gradual-types/terms</a>
-  <a href="../overlays.sdf3#gradual-types/overlays_7_29" id="gradual-types/overlays_137_159" title="Defined at ../overlays.sdf3 line 1">gradual-types/overlays</a>
+  <a href="../modules.sdf3/#gradual-types/modules_1_8" id="gradual-types/modules_4_3" title="Defined at ../modules.sdf3 line 1">gradual-types/modules</a>
+  <a href="../signatures.sdf3/#gradual-types/signatures_1_8" id="gradual-types/signatures_5_3" title="Defined at ../signatures.sdf3 line 1">gradual-types/signatures</a>
+  <a href="../strategies.sdf3/#gradual-types/strategies_1_8" id="gradual-types/strategies_6_3" title="Defined at ../strategies.sdf3 line 1">gradual-types/strategies</a>
+  <a href="../terms.sdf3/#gradual-types/terms_1_8" id="gradual-types/terms_7_3" title="Defined at ../terms.sdf3 line 1">gradual-types/terms</a>
+  <a href="../overlays.sdf3/#gradual-types/overlays_1_8" id="gradual-types/overlays_8_3" title="Defined at ../overlays.sdf3 line 1">gradual-types/overlays</a>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

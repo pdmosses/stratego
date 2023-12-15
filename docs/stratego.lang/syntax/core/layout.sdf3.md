@@ -36,26 +36,26 @@ hide:
 24
 25
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../modules.sdf3#core/layout_50_61" id="core/layout_7_18" title="Referenced at ../modules.sdf3 line 5">core/layout</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="core/layout_1_8" title="Multi-file references" data-urls="../main.sdf3/#core/layout_6_3 line 6; ../modules.sdf3/#core/layout_5_3 line 5">core/layout</button>
 
-<span class="keyword">lexical sorts</span> <a href="#Ws_389_391" id="Ws_34_36" title="Referenced at line 20">Ws</a> <a href="#ShortCom_350_358" id="ShortCom_37_45" title="Referenced at line 18">ShortCom</a> <a href="#LongCom_370_377" id="LongCom_46_53" title="Referenced at line 19">LongCom</a> <a href="#CommChar_175_183" id="CommChar_54_62" title="Referenced at line 7">CommChar</a> <a href="#Asterisk_286_294" id="Asterisk_63_71" title="Referenced at line 14">Asterisk</a> <a href="#Eof_306_309" id="Eof_72_75" title="Referenced at line 15">Eof</a>
+<span class="keyword">lexical sorts</span> <a href="#Ws_20_12" id="Ws_3_15" title="Referenced at line 20">Ws</a> <a href="#ShortCom_18_12" id="ShortCom_3_18" title="Referenced at line 18">ShortCom</a> <a href="#LongCom_19_12" id="LongCom_3_27" title="Referenced at line 19">LongCom</a> <a href="#CommChar_7_19" id="CommChar_3_35" title="Referenced at line 7">CommChar</a> <a href="#Asterisk_11_14" id="Asterisk_3_44" title="Referenced at line 11, 14">Asterisk</a> <a href="#Eof_6_38" id="Eof_3_53" title="Referenced at line 6, 15">Eof</a>
 <span class="keyword">lexical syntax</span>
-  <a href="#Ws_389_391" id="Ws_93_95" title="Referenced at line 20">Ws</a>       = [\t\ \n\r]
-  <a href="#ShortCom_350_358" id="ShortCom_117_125" title="Referenced at line 18">ShortCom</a> = <span class="cons_Lit">"//"</span> ~[\n\r]* ([\n\r] | <a href="#Eof_72_75" id="Eof_152_155" title="Defined at line 3, 8">Eof</a>)
-  <a href="#LongCom_370_377" id="LongCom_159_166" title="Referenced at line 19">LongCom</a>  = <span class="cons_Lit">"/*"</span> <a href="#CommChar_54_62" id="CommChar_175_183" title="Defined at line 3, 9, 11">CommChar</a>* <span class="cons_Lit">"*/"</span>
-  <a href="#Eof_306_309" id="Eof_192_195" title="Referenced at line 15">Eof</a>      =
-  <a href="#CommChar_175_183" id="CommChar_205_213" title="Referenced at line 7">CommChar</a> = ~[\*]
-  <a href="#Asterisk_286_294" id="Asterisk_224_232" title="Referenced at line 14">Asterisk</a> = <span class="cons_Lit">"*"</span>
-  <a href="#CommChar_175_183" id="CommChar_241_249" title="Referenced at line 7">CommChar</a> = <a href="#Asterisk_63_71" id="Asterisk_252_260" title="Defined at line 3, 10">Asterisk</a> 
+  <a href="#Ws_20_12" id="Ws_5_3" title="Referenced at line 20">Ws</a>       = [\t\ \n\r]
+  <a href="#ShortCom_18_12" id="ShortCom_6_3" title="Referenced at line 18">ShortCom</a> = <span class="cons_Lit">"//"</span> ~[\n\r]* ([\n\r] | <a href="#Eof_3_53" id="Eof_6_38" title="Defined at line 3, 8">Eof</a>)
+  <a href="#LongCom_19_12" id="LongCom_7_3" title="Referenced at line 19">LongCom</a>  = <span class="cons_Lit">"/*"</span> <a href="#CommChar_3_35" id="CommChar_7_19" title="Defined at line 3, 9, 11">CommChar</a>* <span class="cons_Lit">"*/"</span>
+  <a href="#Eof_6_38" id="Eof_8_3" title="Referenced at line 6, 15">Eof</a>      =
+  <a href="#CommChar_7_19" id="CommChar_9_3" title="Referenced at line 7">CommChar</a> = ~[\*]
+  <a href="#Asterisk_11_14" id="Asterisk_10_3" title="Referenced at line 11, 14">Asterisk</a> = <span class="cons_Lit">"*"</span>
+  <a href="#CommChar_7_19" id="CommChar_11_3" title="Referenced at line 7">CommChar</a> = <a href="#Asterisk_3_44" id="Asterisk_11_14" title="Defined at line 3, 10">Asterisk</a> 
 
 <span class="keyword">lexical restrictions</span>
-  <a href="#Asterisk_63_71" id="Asterisk_286_294" title="Defined at line 3, 10">Asterisk</a> -/- [\/]
-  <a href="#Eof_72_75" id="Eof_306_309" title="Defined at line 3, 8">Eof</a>      -/- ~[]
+  <a href="#Asterisk_3_44" id="Asterisk_14_3" title="Defined at line 3, 10">Asterisk</a> -/- [\/]
+  <a href="#Eof_3_53" id="Eof_15_3" title="Defined at line 3, 8">Eof</a>      -/- ~[]
 
 <span class="keyword">lexical syntax</span>
-  <span class="keyword">LAYOUT</span> = <a href="#ShortCom_37_45" id="ShortCom_350_358" title="Defined at line 3, 6">ShortCom</a>
-  <span class="keyword">LAYOUT</span> = <a href="#LongCom_46_53" id="LongCom_370_377" title="Defined at line 3, 7">LongCom</a>
-  <span class="keyword">LAYOUT</span> = <a href="#Ws_34_36" id="Ws_389_391" title="Defined at line 3, 5">Ws</a>
+  <span class="keyword">LAYOUT</span> = <a href="#ShortCom_3_18" id="ShortCom_18_12" title="Defined at line 3, 6">ShortCom</a>
+  <span class="keyword">LAYOUT</span> = <a href="#LongCom_3_27" id="LongCom_19_12" title="Defined at line 3, 7">LongCom</a>
+  <span class="keyword">LAYOUT</span> = <a href="#Ws_3_15" id="Ws_20_12" title="Defined at line 3, 5">Ws</a>
 
 <span class="keyword">context-free restrictions</span>
   <span class="keyword">LAYOUT</span>? -/- [\ \t\n\r]
@@ -63,3 +63,12 @@ hide:
   <span class="keyword">LAYOUT</span>? -/- [\/].[\/]
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

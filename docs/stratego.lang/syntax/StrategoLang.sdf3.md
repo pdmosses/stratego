@@ -18,12 +18,21 @@ hide:
 6
 7
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <span id="StrategoLang_7_19" title="Not referenced locally, nor via imports">StrategoLang</span>
+<td class="code"><pre><code><span class="keyword">module</span> <span id="StrategoLang_1_8" title="Not referenced">StrategoLang</span>
 
 <span class="keyword">imports</span>
-  <a href="../import.sdf3#import_7_13" id="import_31_37" title="Defined at ../import.sdf3 line 1">import</a>
-  <a href="../core/modules.sdf3#core/modules_7_19" id="core/modules_40_52" title="Defined at ../core/modules.sdf3 line 1">core/modules</a> <span class="layout">// for the Module sort</span>
+  <a href="../import.sdf3/#import_1_8" id="import_4_3" title="Defined at ../import.sdf3 line 1">import</a>
+  <a href="../core/modules.sdf3/#core/modules_1_8" id="core/modules_5_3" title="Defined at ../core/modules.sdf3 line 1">core/modules</a> <span class="layout">// for the Module sort</span>
 
-<span class="keyword">context-free start-symbols</span> <a href="../core/modules.sdf3#Module_118_124" id="Module_104_110" title="Defined at ../core/modules.sdf3 line 9, 12, 17">Module</a>
+<span class="keyword">context-free start-symbols</span> <a href="../core/modules.sdf3/#Module_9_20" id="Module_7_28" title="Defined at ../core/modules.sdf3 line 9, 12, 17">Module</a>
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

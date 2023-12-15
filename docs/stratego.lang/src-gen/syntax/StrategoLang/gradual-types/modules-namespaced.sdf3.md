@@ -23,17 +23,26 @@ hide:
 11
 12
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../main-namespaced.sdf3#StrategoLang/gradual-types/modules-namespaced_61_106" id="StrategoLang/gradual-types/modules-namespaced_7_52" title="Referenced at ../main-namespaced.sdf3 line 4">StrategoLang/gradual-types/modules-namespaced</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../main-namespaced.sdf3/#StrategoLang/gradual-types/modules-namespaced_4_3" id="StrategoLang/gradual-types/modules-namespaced_1_8" title="Referenced at ../main-namespaced.sdf3 line 4">StrategoLang/gradual-types/modules-namespaced</a>
 
 <span class="keyword">imports</span>
-  <a href="../../core/identifiers-namespaced.sdf3#StrategoLang/core/identifiers-namespaced_7_47" id="StrategoLang/core/identifiers-namespaced_64_104" title="Defined at ../../core/identifiers-namespaced.sdf3 line 1">StrategoLang/core/identifiers-namespaced</a>        
-  <a href="../../core/strategies-namespaced.sdf3#StrategoLang/core/strategies-namespaced_7_46" id="StrategoLang/core/strategies-namespaced_108_147" title="Defined at ../../core/strategies-namespaced.sdf3 line 1">StrategoLang/core/strategies-namespaced</a>        
-  <a href="../signatures-namespaced.sdf3#StrategoLang/gradual-types/signatures-namespaced_7_55" id="StrategoLang/gradual-types/signatures-namespaced_151_199" title="Defined at ../signatures-namespaced.sdf3 line 1">StrategoLang/gradual-types/signatures-namespaced</a>
+  <a href="../../core/identifiers-namespaced.sdf3/#StrategoLang/core/identifiers-namespaced_1_8" id="StrategoLang/core/identifiers-namespaced_4_3" title="Defined at ../../core/identifiers-namespaced.sdf3 line 1">StrategoLang/core/identifiers-namespaced</a>        
+  <a href="../../core/strategies-namespaced.sdf3/#StrategoLang/core/strategies-namespaced_1_8" id="StrategoLang/core/strategies-namespaced_5_3" title="Defined at ../../core/strategies-namespaced.sdf3 line 1">StrategoLang/core/strategies-namespaced</a>        
+  <a href="../signatures-namespaced.sdf3/#StrategoLang/gradual-types/signatures-namespaced_1_8" id="StrategoLang/gradual-types/signatures-namespaced_6_3" title="Defined at ../signatures-namespaced.sdf3 line 1">StrategoLang/gradual-types/signatures-namespaced</a>
 
 <span class="keyword">context-free syntax</span>
 
-  <span id="StrategoLang-Def_224_240" title="Not referenced locally, nor via imports">StrategoLang-Def</span>.<span class="cons_Constructor"><span id="DefHasTypeNoArgs_241_257" title="Not referenced locally, nor via imports">DefHasTypeNoArgs</span></span> = [[<a href="../../core/strategies-namespaced.sdf3#StrategoLang-SId_1108_1124" id="StrategoLang-SId_262_278" title="Defined at ../../core/strategies-namespaced.sdf3 line 36">StrategoLang-SId</a>] <span class="cons_String">::</span> [StrategoLang-SSimpleFunType]] { }
-  <span id="StrategoLang-Def_320_336" title="Not referenced locally, nor via imports">StrategoLang-Def</span>.<span class="cons_Constructor"><span id="DefHasType_337_347" title="Not referenced locally, nor via imports">DefHasType</span></span> = [[<a href="../../core/strategies-namespaced.sdf3#StrategoLang-SId_1108_1124" id="StrategoLang-SId_352_368" title="Defined at ../../core/strategies-namespaced.sdf3 line 36">StrategoLang-SId</a>]<span class="cons_String">(</span>[{StrategoLang-SType <span class="cons_Lit">", "</span>}*]<span class="cons_String">)</span> <span class="cons_String">::</span> [StrategoLang-SSimpleFunType]] { }
-  <span id="StrategoLang-Def_440_456" title="Not referenced locally, nor via imports">StrategoLang-Def</span>.<span class="cons_Constructor"><span id="DefHasTType_457_468" title="Not referenced locally, nor via imports">DefHasTType</span></span> = [[<a href="../../core/strategies-namespaced.sdf3#StrategoLang-SId_1108_1124" id="StrategoLang-SId_473_489" title="Defined at ../../core/strategies-namespaced.sdf3 line 36">StrategoLang-SId</a>]<span class="cons_String">(</span>[{StrategoLang-SType <span class="cons_Lit">", "</span>}*] <span class="cons_String">|</span> [{StrategoLang-Type <span class="cons_Lit">", "</span>}*]<span class="cons_String">)</span> <span class="cons_String">::</span> [StrategoLang-SSimpleFunType]] { }
+  <span id="StrategoLang-Def_10_3" title="Not referenced">StrategoLang-Def</span>.<span class="cons_Constructor"><span id="DefHasTypeNoArgs_10_20" title="Not referenced">DefHasTypeNoArgs</span></span> = [[<a href="../../core/strategies-namespaced.sdf3/#StrategoLang-SId_36_3" id="StrategoLang-SId_10_41" title="Defined at ../../core/strategies-namespaced.sdf3 line 36">StrategoLang-SId</a>] <span class="cons_String">::</span> [StrategoLang-SSimpleFunType]] { }
+  <span id="StrategoLang-Def_11_3" title="Not referenced">StrategoLang-Def</span>.<span class="cons_Constructor"><span id="DefHasType_11_20" title="Not referenced">DefHasType</span></span> = [[<a href="../../core/strategies-namespaced.sdf3/#StrategoLang-SId_36_3" id="StrategoLang-SId_11_35" title="Defined at ../../core/strategies-namespaced.sdf3 line 36">StrategoLang-SId</a>]<span class="cons_String">(</span>[{StrategoLang-SType <span class="cons_Lit">", "</span>}*]<span class="cons_String">)</span> <span class="cons_String">::</span> [StrategoLang-SSimpleFunType]] { }
+  <span id="StrategoLang-Def_12_3" title="Not referenced">StrategoLang-Def</span>.<span class="cons_Constructor"><span id="DefHasTType_12_20" title="Not referenced">DefHasTType</span></span> = [[<a href="../../core/strategies-namespaced.sdf3/#StrategoLang-SId_36_3" id="StrategoLang-SId_12_36" title="Defined at ../../core/strategies-namespaced.sdf3 line 36">StrategoLang-SId</a>]<span class="cons_String">(</span>[{StrategoLang-SType <span class="cons_Lit">", "</span>}*] <span class="cons_String">|</span> [{StrategoLang-Type <span class="cons_Lit">", "</span>}*]<span class="cons_String">)</span> <span class="cons_String">::</span> [StrategoLang-SSimpleFunType]] { }
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

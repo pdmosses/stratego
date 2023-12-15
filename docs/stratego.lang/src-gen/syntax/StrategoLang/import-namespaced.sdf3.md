@@ -17,11 +17,20 @@ hide:
 5
 6
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../StrategoLang-namespaced.sdf3#StrategoLang/import-namespaced_55_85" id="StrategoLang/import-namespaced_7_37" title="Referenced at ../StrategoLang-namespaced.sdf3 line 4">StrategoLang/import-namespaced</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../StrategoLang-namespaced.sdf3/#StrategoLang/import-namespaced_4_3" id="StrategoLang/import-namespaced_1_8" title="Referenced at ../StrategoLang-namespaced.sdf3 line 4">StrategoLang/import-namespaced</a>
 
 <span class="keyword">imports</span>
-  <a href="../sugar/main-namespaced.sdf3#StrategoLang/sugar/main-namespaced_7_41" id="StrategoLang/sugar/main-namespaced_49_83" title="Defined at ../sugar/main-namespaced.sdf3 line 1">StrategoLang/sugar/main-namespaced</a>        
-  <a href="../core/main-namespaced.sdf3#StrategoLang/core/main-namespaced_7_40" id="StrategoLang/core/main-namespaced_87_120" title="Defined at ../core/main-namespaced.sdf3 line 1">StrategoLang/core/main-namespaced</a>        
-  <a href="../gradual-types/main-namespaced.sdf3#StrategoLang/gradual-types/main-namespaced_7_49" id="StrategoLang/gradual-types/main-namespaced_124_166" title="Defined at ../gradual-types/main-namespaced.sdf3 line 1">StrategoLang/gradual-types/main-namespaced</a>
+  <a href="../sugar/main-namespaced.sdf3/#StrategoLang/sugar/main-namespaced_1_8" id="StrategoLang/sugar/main-namespaced_4_3" title="Defined at ../sugar/main-namespaced.sdf3 line 1">StrategoLang/sugar/main-namespaced</a>        
+  <a href="../core/main-namespaced.sdf3/#StrategoLang/core/main-namespaced_1_8" id="StrategoLang/core/main-namespaced_5_3" title="Defined at ../core/main-namespaced.sdf3 line 1">StrategoLang/core/main-namespaced</a>        
+  <a href="../gradual-types/main-namespaced.sdf3/#StrategoLang/gradual-types/main-namespaced_1_8" id="StrategoLang/gradual-types/main-namespaced_6_3" title="Defined at ../gradual-types/main-namespaced.sdf3 line 1">StrategoLang/gradual-types/main-namespaced</a>
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>
