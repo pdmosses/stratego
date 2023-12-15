@@ -30,38 +30,45 @@ rules // Name binding
   
   // TODO: simplify the definition
   
-  analyzed-ast: file -> ast'
-    with
-      ast := <parse-file-with-current-lang> file
-    ; Result([FileResult(_, _, ast', _, _, _)], _, _, _, _) := <editor-analyze> [File(file, ast, 0)]
-
-  use-to-defs:
-    node -> <sort-by-origin(|node)> defs
-    where
-      result := <has-annos; get-annos; fetch-elem(?Use(<id>))> node
-    with
-      defs := <task-get-results> result
-
-  get-use:
-    node -> reference
-    where
-      reference := <has-annos; get-annos; fetch-elem(?Use(_))> node
-
-  get-def:
-    node -> definition
-    where
-      definition := <has-annos; get-annos; fetch-elem(?Def(_))> node
-
-  def-to-uses(|ast-list):
-    node -> <filter(where(is-ref-to(|d))); sort-by-origin(|node)> ref-list
-    where
-      d := <is-string; get-def> node
-    ; s := <strip-annos> node
-    ; ref-list := <collect(where(is-string; where(get-use); strip-annos; equal(|s)))> ast-list
-
-  is-ref-to(|d): ref -> ref
-    where
-      <elem> (d, <use-to-defs> ref)
+  analyzed-ast = fail
+  use-to-defs = fail
+  get-use = fail
+  get-def = fail
+  def-to-uses(|_) = fail
+  is-ref-to = fail
+  
+//  analyzed-ast: file -> ast'
+//    with
+//      ast := <parse-file-with-current-lang> file
+//    ; Result([FileResult(_, _, ast', _, _, _)], _, _, _, _) := <editor-analyze> [File(file, ast, 0)]
+//
+//  use-to-defs:
+//    node -> <sort-by-origin(|node)> defs
+//    where
+//      result := <has-annos; get-annos; fetch-elem(?Use(<id>))> node
+//    with
+//      defs := <task-get-results> result
+//
+//  get-use:
+//    node -> reference
+//    where
+//      reference := <has-annos; get-annos; fetch-elem(?Use(_))> node
+//
+//  get-def:
+//    node -> definition
+//    where
+//      definition := <has-annos; get-annos; fetch-elem(?Def(_))> node
+//
+//  def-to-uses(|ast-list):
+//    node -> <filter(where(is-ref-to(|d))); sort-by-origin(|node)> ref-list
+//    where
+//      d := <is-string; get-def> node
+//    ; s := <strip-annos> node
+//    ; ref-list := <collect(where(is-string; where(get-use); strip-annos; equal(|s)))> ast-list
+//
+//  is-ref-to(|d): ref -> ref
+//    where
+//      <elem> (d, <use-to-defs> ref)
  
 rules // Multi-file order of origins of definitions or references
 
